@@ -61,7 +61,7 @@ To change branch we use: B (switch)
 
 ### Question 8
 
-Usually, what is the name of the main branch of a repository? C
+Usually, what is the name of the main branch of a repository? C (old A: master)
 
 - A. `master`
 - B. `feature`
