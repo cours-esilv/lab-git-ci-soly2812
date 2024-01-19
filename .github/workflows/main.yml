@@ -1,0 +1,16 @@
+on:
+  push:
+    branches:
+    - mains
+
+jobs:
+  build:
+    runs-on : ubuntu-latest
+
+    steps:
+      - name : Checkout code
+        uses : actions/checkout@v2
+
+      - name : Echo message
+        run : echo "Workflow setup all good. Ready for next questions"
+        
