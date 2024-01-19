@@ -44,6 +44,7 @@ jobs:
         id: buildx
         with:
           install: true
+
           
       # Build l'image Docker
       - name: Docker build
